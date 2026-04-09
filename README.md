@@ -78,7 +78,11 @@ Dataset **final y completo** (~4.200 propiedades), listo para análisis. Combina
 ---
 
 ### `Informe.pdf` 
+Documento final que resume el desarrollo del proyecto desde el enfoque de negocio hasta el análisis de los datos obtenidos. Incluye la definición del problema orientado a un inversor inmobiliario tipo flipper, cuyo objetivo es maximizar el retorno de inversión (ROI) mediante la identificación de propiedades subvaluadas en la Ciudad Autónoma de Buenos Aires.
 
+El informe presenta las preguntas clave del análisis, estructuradas en niveles descriptivo, diagnóstico, predictivo y prescriptivo, junto con los KPIs asociados para evaluar el mercado inmobiliario. A su vez, detalla las hipótesis planteadas, como el impacto de la ubicación, el estado de la propiedad y la presencia de amenities en el precio y potencial de valorización.
+
+También se describe el proceso completo de construcción del dataset, incluyendo la extracción de datos mediante scraping, la limpieza y estructuración de los DataFrames en Pandas y el enriquecimiento con fuentes externas geoespaciales.
 
 ---
 
