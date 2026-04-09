@@ -10,10 +10,10 @@ Este repositorio contiene el pipeline completo para extraer, geolocalizar y enri
 scraper.py  →  argenprop_1775261213.tsv
                        ↓
           mapeo_latitud_longitud.ipynb  →  argenprop_con_lat_lon.tsv
-                                              ↓
-                                        enrichment.ipynb  →  argenprop_enriched.tsv
-                                                             ↓
-                                                         Informe (PDF)
+                                                      ↓
+                                              enrichment.ipynb  →  argenprop_enriched.tsv
+                                                                             ↓
+                                                                         Informe (PDF)
 ```
 
 ---
