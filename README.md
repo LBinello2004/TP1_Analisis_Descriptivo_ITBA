@@ -7,7 +7,7 @@ Este repositorio contiene el pipeline completo para extraer, geolocalizar y enri
 ## Flujo del pipeline
 
 ```
-scraper.py  →  argenprop_1775261213.tsv
+scraper.py  →  argenprop_1776007342.tsv
                        ↓
           mapeo_latitud_longitud.ipynb  →  argenprop_con_lat_lon.tsv
                                                       ↓
@@ -30,7 +30,7 @@ Características clave:
 - Guarda incrementalmente cada 50 propiedades en la carpeta `output/`
 - Extrae: precio, expensas, dirección (calle, altura, piso), descripción, características del departamento (ambientes, dormitorios, baños, estado, antigüedad, amenities, etc.)
 
-**Salida:** `output/argenprop_1775261213.tsv`
+**Salida:** `output/argenprop_1776007342.tsv`
 
 ---
 
@@ -40,7 +40,7 @@ Notebook que **geocodifica** las direcciones del dataset crudo, convirtiendo la 
 - Usa la API gratuita de **Nominatim (OpenStreetMap)**
 - Valida que las coordenadas obtenidas caigan dentro de los límites geográficos de CABA
 - Procesa las propiedades de forma asíncrona con un delay para respetar los límites de la API
-- Lee `argenprop_1775261213.tsv` y genera `argenprop_con_lat_lon.tsv`
+- Lee `argenprop_1776007342.tsv` y genera `argenprop_con_lat_lon.tsv`
 
 **Salida:** `argenprop_con_lat_lon.tsv`
 
@@ -62,7 +62,7 @@ Usa **GeoPandas** y proyección EPSG:22185 para calcular distancias con precisi�
 
 ---
 
-### `argenprop_1775261213.tsv`
+### `argenprop_1776007342.tsv`
 Dataset **crudo** generado por el scraper (~6.500 propiedades). Contiene todos los campos extraídos de Argenprop: precio, expensas, dirección, descripción, características del departamento y amenities. No tiene información geográfica.
 
 ---
